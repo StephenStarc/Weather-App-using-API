@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-image:url(./pexels-pixabay-76969.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+}
+main{
+    padding: 2em;
+    max-width: 900px;
+    text-align: center;
+    background: radial-gradient(
+        circle at 50% 0%, #87cee8 40%, #fff 36%);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 1em;
+}
+.input-div{
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+}
+#input{
+    width: 190px;
+    border-style:none;
+    padding:1em 1em 0.7em;
+    font-size: 9px;
+    height: 23px;
+    border-radius: 10px;
+}
+#Search{
+    padding: 7px;
+    margin: 1em 0;
+    font-size: 9px;
+    border-style: none;
+    color: grey;
+    border-radius: 1em;
+}
+.place-info{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em 0;
+}
+.weather-content{
+    margin-top: 1em;
+}
+#cityInput{
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+#celeies{
+    display: grid;
+    place-content: center;
+}
+#cel{
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+#deg{
+    font-size: 3rem;
+}
+#humidity{
+    margin-top: 0.4em;
+}
